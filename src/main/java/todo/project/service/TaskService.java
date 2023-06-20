@@ -1,13 +1,14 @@
 package todo.project.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import todo.project.model.Task;
 import todo.project.repository.TaskRepository;
 
 import java.util.List;
 import java.util.Optional;
-
+@Component
 @Service
 public class TaskService {
 
